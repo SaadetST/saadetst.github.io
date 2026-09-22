@@ -1,0 +1,101 @@
+[
+    {
+        "title": "MOVING IN",
+        "tags": ["ui", "2d", "3d"],
+        "img": "media/MovingIn.png",
+        "alt": "Moving In game visual",
+        "description": "A story-based game about a monster impersonating a deceased person through interactions with their family and friends.",
+        "role": "Art Lead, Technical Artist, 2D Character Art, 3D Modeling, 2D & 3D Animations",
+        "tools": "Unity, C#, Clip Studio Paint, Blender, Trello",
+        "link": "",
+        "linkText": "Website Link"
+    },
+    {
+        "title": "DREAM HOPPERS",
+        "tags": ["ui", "2d"],
+        "img": "media/DreamHoppers.png",
+        "alt": "Home page of Dream Hoppers website",
+        "description": "An academic project focused on creating a mock-up website for an imaginary TV show.",
+        "role": "Layout Design, UI/UX Design, Illustrations",
+        "tools": "Axure, Clip Studio Paint, JavaScript",
+        "link": "https://3zudl8.axshare.com/",
+        "linkText": "Mock-up Link"
+    },
+    {
+        "title": "PORTFOLIO",
+        "tags": ["web", "ui"],
+        "img": "media/Portfolio.png",
+        "alt": "Portfolio home-page",
+        "description": "Designing and developing a personal portfolio from scratch to showcase projects.",
+        "role": "Front-end Development, UX/UI Design, Mock-ups, Illustrations",
+        "tools": "JavaScript, CSS, HTML",
+        "link": "",
+        "linkText": "Website Link"
+    },
+    {
+        "title": "OUTLAWED!",
+        "tags": ["game", "2d"],
+        "img": "media/Outlawed.png",
+        "alt": "Outlawed in Tabletop Simulator",
+        "description": "An academic project focused on making a board game from scratch with a large team.",
+        "role": "Design Document, Layout Design, Game Mechanics Engineering, Playtest Moderator, Data Collection, Character & Card Illustrations",
+        "tools": "Tabletop Simulator, Clip Studio Paint, Photoshop, Cardboard and Tape",
+        "link": "",
+        "linkText": "Tabletop Simulator Link"
+    }, 
+    {
+        "title": "GO FETCH!",
+        "tags": ["game"],
+        "img": "media/GoFetch.gif",
+        "alt": "Go Fetch's in game gif",
+        "description": "Worked in team of 4 for an academic project about a dog fighting cats and finding his way home.",
+        "role": "Level Design, Tile System, Research",
+        "tools": "C#, MonoGames, Visual Studio",
+        "link": "https://saadetst.itch.io/go-fetch",
+        "linkText": "Download From Itch Page"
+    }, 
+    {
+        "title": "IN THOSE DAYS",
+        "tags": ["game", "2d"],
+        "img": "media/InThoseDays.gif",
+        "alt": "In Those Days's gif",
+        "description": "Worked in a team of 5 for a game jam following the theme 'nostalgia'. A game about growing up and experiencing core memories through games.",
+        "role": "Storyline, Cutscene Animations, UI Assets",
+        "tools": "C#, Unity, Aseprite, Clip Studio Paint",
+        "link": "https://purplehatsoncats.itch.io/in-those-days",
+        "linkText": "Download From Itch Page"
+    },
+    {
+        "title": "JELLY HOP",
+        "tags": ["game", "web"],
+        "img": "media/JellyHop.png",
+        "alt": "Jelly Hop's in-game picture",
+        "description": "An academic project turned into passion project! A cute web game about little fishes lost at sea.",
+        "role": "Level Design, Spawn System, Physics, Animation",
+        "tools": "PixiJS, JavaScript, HTML & CSS, Visual Code",
+        "link": "https://people.rit.edu/sst3706/235/proj3/index.html",
+        "linkText": "Click To Play"
+    }, 
+    {
+        "title": "SIS RE-DESIGN",
+        "tags": ["ui"],
+        "img": "media/SIS.png",
+        "alt": "Figma layout of the re-design",
+        "description": "A re-design of Rochester Institute of Technology's Student Information System website.",
+        "role": "Prototype Overall Functionality, Design Consistency, User Testing, Course Search Layout",
+        "tools": "Figma, Google Forms",
+        "link": "",
+        "linkText": "Mock-up Link"
+    },
+    {
+        "title": "CHARACTER FINDER",
+        "tags": ["web", "ui"],
+        "img": "media/CharacterFinder.png",
+        "alt": "Character-finder results for a filter",
+        "description": "A front-end API project that searches and catalogs Rick and Morty characters using user-defined filters.",
+        "role": "Front-end Development, Layout Design, Interactivity",
+        "tools": "JavaScript, CSS, HTML",
+        "link": "",
+        "linkText": "Website Link"
+    }
+]

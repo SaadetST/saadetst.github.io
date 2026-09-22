@@ -1,0 +1,480 @@
+.inika-regular {
+  font-family: "Inika", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+body{
+    margin:0;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-areas:
+    "header"
+    "nav"
+    "main"
+    "footer";
+    background-color: rgb(255 255 247);
+
+    font-family: 'Inika', serif; 
+    font-size: 18px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+h3{
+    font-size: 20px;
+    margin:0;
+}
+
+p{
+    margin: 0;
+    color:rgb(57 62 65);
+}
+
+h1, h2{
+    display: block;
+    white-space: nowrap;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+.hidden{
+    display: none;
+}
+
+
+header{
+    grid-area: header;
+    margin: 5rem 2em 0 2rem;
+}
+
+#headerImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2.5rem;
+}
+
+#headerIcons{
+    display: flex;
+    justify-content: flex-start;
+
+    padding: 3.5rem 0 0 6rem;
+}
+
+#headerIcons li{
+    display:flex;
+    align-items: center;
+
+}
+
+ul li{
+    padding: 0;
+}   
+
+
+nav{
+    grid-row: nav;
+    background-color: rgb(255 255 247);
+}    
+
+#main-nav{
+    position: sticky;
+    top: 0; 
+}    
+
+#nav{
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    margin: 10px 0 10px 0;
+
+    margin-left: clamp(0.5rem, 2vw + 1rem, 3rem);
+    margin-right: clamp(0.5rem, 2vw + 1rem, 1.5rem);
+
+    font-size: 17px;    
+}     
+
+#list-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 40px;
+    padding: 0;
+}    
+
+#list-nav li{
+    margin: auto;
+}    
+
+#list-nav a{
+    color: rgb(57 62 65);
+    text-decoration: none;
+    font-size: 1.3rem;
+    transition: color 0.3s;
+}
+
+
+
+main{
+    grid-area: main;
+    margin-top: 0;
+}
+
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+}
+
+
+#projects h1{
+    display: flex;
+    justify-content: center;
+}
+
+#projects-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 650px));
+    align-items: start;
+    justify-content: space-around;
+}
+
+.project-para{
+    padding: 1rem 0;
+}
+
+.project-para p{
+    margin-bottom: 18px;
+}
+
+.project-para img{
+    border: solid rgb(220, 167, 60) 4.5px;
+    border-radius: 0.5%;
+    width: 100%;
+}
+
+.tags-container{
+    display: flex;
+}
+
+.tag{
+    width: 60px;
+    height: 24px;
+    border-radius: 8%;
+    
+    /* Styling */
+    border-radius: 0.5%;
+    font-size: 0.80rem;
+    font-weight: bold;
+    
+    /* Center the text vertically and horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    /* Reset default paragraph margins */
+    margin: 5px 0 10px 10px;
+    margin-bottom: 10rem;
+}
+
+.tag-game{
+    background-color: rgba(225, 143, 143, 0.3);
+    border: solid rgb(212, 99, 50) 3px;
+}
+
+.tag-web{
+    background-color: rgba(143, 210, 225, 0.2);
+    border: solid rgb(50, 166, 212) 3px;
+}
+
+.tag-ui{
+    background-color: rgba(183, 143, 225, 0.2);
+    border: solid rgb(123, 50, 212) 3px;
+}
+
+.tag-2d{
+    background-color: rgba(225, 143, 200, 0.2);
+    border: solid rgb(212, 50, 174) 3px;
+}
+
+.tag-3d{
+    background-color: rgba(149, 143, 225, 0.2);
+    border: solid rgb(50, 123, 212) 3px;
+}
+
+.tag-animation{
+    background-color: rgba(143, 210, 225, 0.2);
+    border: solid rgb(50, 166, 212) 3px;
+}
+
+
+footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    margin: 2rem 10rem;
+}
+
+footer h1{
+    padding-right: 20rem;
+}
+
+.subhead{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subhead h2{
+    color: rgb(45, 45, 45);
+}
+
+a svg{
+    margin: 0;
+    padding: 0;
+    fill:rgb(32, 32, 32);
+    transition: fill 0.3s;
+}
+
+.icons-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 0.5rem 0 1rem 0;
+    padding:0;
+}
+
+.icons-list h1{
+    padding: 0 1rem 0.5rem 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 20rem;
+}
+
+.desktop-heading{
+    display: none;
+}
+
+.mobile-heading{
+    display: none;
+}
+
+/* Mobile  ====================================================================================*/
+@media (max-width: 639px) {
+    #about{
+        flex-direction: column-reverse;
+        margin: 7rem 5rem 10rem 5rem;
+    }
+
+    #about-para{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem 0 5rem 0;
+    }
+
+    #about img{
+        display: none;
+    }
+
+    #projects{
+        margin: 0 2rem;
+        padding: 1rem 5rem;
+    }
+
+    #projects-list{
+        margin-top: 2.5rem;
+        gap: 70px;
+    }
+
+    .project-para h3{
+        text-align: center;
+        padding: 1rem 0 0.5rem 0;
+    }
+
+    #list-nav a:active{
+        text-decoration: underline;
+        color: rgb(197, 150, 55);
+        fill: rgb(197, 150, 55);
+    }
+
+    a:active svg{
+        color: rgb(235, 178, 65);
+        fill: rgb(235, 178, 65);
+    }
+
+    .mobile-heading{
+        display: inline;
+    }
+}
+
+/* Tablets  ==============================================================================*/
+@media (min-width: 640px) and (max-width: 1023px) {
+    #about{
+        flex-direction: column-reverse;
+        margin: 7rem 5rem 8rem 5rem;
+    }
+    
+    #about img{
+        display: none;
+    }
+
+    #about-para{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 2rem 0 3rem 0;
+    }
+
+    #projects{
+        margin: 0 2rem;
+        padding: 1rem 5rem;
+    }
+
+    #projects-list{
+        margin-top: 2.5rem;
+        gap: 70px;
+    }
+
+    .project-para h3{
+        text-align: center;
+        padding: 1rem 0 0.5rem 0;
+    }
+
+    #list-nav a:active{
+        text-decoration: underline;
+        color: rgb(197, 150, 55);
+        fill: rgb(197, 150, 55);
+    }
+
+    a:active svg{
+        color: rgb(235, 178, 65);
+        fill: rgb(235, 178, 65);
+    }
+
+    .mobile-heading{
+        display: inline;
+    }
+}
+
+/* Standard Desktops =======================================================================*/
+@media (min-width: 1024px) and (max-width: 1279px) {
+    #about-para
+    {
+        margin: 0 5rem 0 0;
+    }
+
+    #about{
+        flex-direction: row-reverse;
+        margin: 7rem 10rem;
+    }
+
+    #about img{
+        border: solid rgb(220, 167, 60) 4.5px;
+        border-radius: 0.5%;
+    }
+
+    #projects{
+        margin: 0 2rem;
+        padding: 5rem 5rem;
+    }
+
+    #projects-list{
+        margin-top: 4rem;
+        gap: 70px;
+    }
+
+    .project-para h3{
+        text-align: center;
+        padding: 1rem 0 0 0;
+    }
+
+    .project-para img:hover{
+        opacity: 0.85;
+    }
+
+    #list-nav a:hover{
+        text-decoration: underline;
+        color: rgb(197, 150, 55);
+        fill: rgb(197, 150, 55);
+    }
+
+    a:hover svg{
+        color: rgb(235, 178, 65);
+        fill: rgb(235, 178, 65);
+    }
+
+    .desktop-heading{
+        display: inline;
+    }
+}
+
+/* Large Desktops ==============================================================================*/
+@media (min-width: 1280px) {
+    #about-para
+    {
+        margin: 0 5rem 0 0;
+    }
+    
+    #about{
+        flex-direction: row-reverse;
+        margin: 7rem 15rem 8rem 15rem;
+    }
+
+    #about img{
+        border: solid rgb(220, 167, 60) 4.5px;
+        border-radius: 0.5%;
+    }
+
+    #projects{
+        margin: 0 2rem;
+        padding: 5rem 5rem;
+    }
+
+    #projects-list{
+        margin-top: 4rem;
+        gap: 70px;
+    }
+
+    .project-para h3{
+        text-align: center;
+        padding: 1rem 0 0 0;
+    }
+
+    .project-para img:hover{
+      opacity: 0.85;
+    }
+
+    #list-nav a:hover{
+        text-decoration: underline;
+        color: rgb(197, 150, 55);
+        fill: rgb(197, 150, 55);
+    }
+
+    a:hover svg{
+        color: rgb(235, 178, 65);
+        fill: rgb(235, 178, 65);
+    }
+
+    .desktop-heading{
+        display: inline;
+    }
+}

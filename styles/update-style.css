@@ -57,7 +57,7 @@ li{
 
 header{
     grid-area: header;
-    margin: 5rem 2em 0 2rem;
+    margin: 4rem 2em 1rem 2rem;
 }
 
 #headerImage{
@@ -229,9 +229,7 @@ main{
 
 footer{
     grid-area: footer;
-    display: flex;
-    justify-content: center;
-    margin: 2rem 10rem;
+    margin: 0 4rem 4rem 4rem;
 }
 
 footer h1{
@@ -242,6 +240,8 @@ footer h1{
     display:flex;
     align-items: center;
     justify-content: space-between;
+    align-content: stretch;
+
 }
 
 .subhead h2{
@@ -264,6 +264,12 @@ a svg{
     gap: 0.625rem;
     margin: 0.5rem 0 1rem 0;
     padding:0;
+}
+
+.contacts-desc{
+    display: flex;
+    flex-direction: column;
+
 }
 
 .icons-list h1{

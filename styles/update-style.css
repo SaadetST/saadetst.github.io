@@ -154,7 +154,7 @@ main{
 }
 
 .project-para{
-    padding: 2rem 0 3rem 0;
+    padding: 2rem 0 4rem 0;
 }
 
 .project-para p{
@@ -360,8 +360,7 @@ html {
     }
 
     #projects-list{
-        margin-top: 2.5rem;
-        gap: 4.37rem;
+        grid-template-columns: 1fr;
     }
 
     .project-para h3{

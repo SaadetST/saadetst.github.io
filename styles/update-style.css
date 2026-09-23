@@ -210,9 +210,9 @@ main{
     margin-bottom: 10rem;
 }
 
-.tag-game{
-    background-color: rgba(225, 143, 143, 0.3);
-    border: solid rgb(212, 99, 50) 3px;
+.tag-design{
+    background-color: rgba(212, 174, 50, 0.3);
+    border: solid rgb(212, 174, 50) 3px;
 }
 
 .tag-web{
@@ -220,9 +220,29 @@ main{
     border: solid rgb(50, 166, 212) 3px;
 }
 
+.tag-ta{
+    background-color: rgba(50, 185, 212, 0.2);
+    border: solid rgb(50, 212, 196) 3px;
+}
+
 .tag-ui{
     background-color: rgba(183, 143, 225, 0.2);
     border: solid rgb(123, 50, 212) 3px;
+}
+
+.tag-ux{
+    background-color: rgba(183, 143, 225, 0.2);
+    border: solid rgb(123, 50, 212) 3px;
+}
+
+.tag-ui\/ux{
+    background-color: rgba(183, 143, 225, 0.2);
+    border: solid rgb(123, 50, 212) 3px;
+}
+
+.tag-audio{
+    background-color: rgba(58, 191, 65, 0.2);
+    border: solid rgb(58, 191, 65) 3px;
 }
 
 .tag-2d{
@@ -235,9 +255,9 @@ main{
     border: solid rgb(50, 123, 212) 3px;
 }
 
-.tag-animation{
-    background-color: rgba(143, 210, 225, 0.2);
-    border: solid rgb(50, 166, 212) 3px;
+.tag-code{
+    background-color: rgba(212, 50, 50, 0.2);
+    border: solid rgb(212, 50, 50) 3px;
 }
 
 
@@ -462,10 +482,12 @@ html {
         padding: 1rem 0 0 0;
     }
 
+    /*
     .project-para img:hover{
         opacity: 0.85;
     }
-
+    */
+    
     #list-nav a:hover{
         text-decoration: underline;
         color: rgb(197, 150, 55);

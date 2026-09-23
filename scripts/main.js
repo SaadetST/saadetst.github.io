@@ -18,22 +18,27 @@ function loadProjects(project){
     let bigString = "";
     for(let i = 0; i < project.length; i++){
 
-        const tags = project[i].tags;
+        let proj = project[i];
+
+        const tags = proj.tags;
         const tagsHTML = tags
             .map(tag => `<p class="tag tag-${tag}">${tag.toUpperCase()}</p>`)
             .join("");
         const classTags = tags.join(" ");
 
+        let teamHTML = proj.team ? `<p><b>Team:</b> ${proj.team}</p>` : '';
+
         let projectString = `
         <div class="project-para ${classTags}">
-            <img src="${project[i].img}" alt="${project[i].alt}">
-            <h3>~ ${project[i].title} ~</h3> 
+            <img src="${proj.img}" alt="${proj.alt}">
+            <h3>~ ${proj.title} ~</h3> 
             <div class="tags-container">
                 ${tagsHTML}
             </div>
-            <p>${project[i].description}</p>
-            <p><b>Role:</b> ${project[i].role}</p>
-            <p><b>Tools Used:</b> ${project[i].tools}</p>
+            <p>${proj.description}</p>
+            <p><b>Role:</b> ${proj.role}</p>
+            <p><b>Tools Used:</b> ${proj.tools}</p>
+            <p><b>Project:</b> <a href=${proj.link}>${proj.linkText}</a> 
         </div>`;
 
         bigString += projectString;

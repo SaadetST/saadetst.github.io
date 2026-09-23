@@ -17,7 +17,7 @@ body{
     background-color: rgb(255 255 247);
 
     font-family: 'Inika', serif; 
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 img{
@@ -26,7 +26,7 @@ img{
 }
 
 h3{
-    font-size: 20px;
+    font-size: 1.25rem;
     margin:0;
 }
 
@@ -100,19 +100,19 @@ nav{
     display: flex;
     margin: 0;
     justify-content: center;
-    margin: 10px 0 10px 0;
+    margin: 0.6rem 0 0.6rem 0;
 
     margin-left: clamp(0.5rem, 2vw + 1rem, 3rem);
     margin-right: clamp(0.5rem, 2vw + 1rem, 1.5rem);
 
-    font-size: 17px;    
+    font-size: 0.65rem;    
 }     
 
 #list-nav{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    gap: 40px;
+    gap: 2.5rem;
     padding: 0;
 }    
 
@@ -148,7 +148,7 @@ main{
 
 #projects-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 650px));
+    grid-template-columns: repeat(auto-fit, minmax(31.3rem, 40.6rem));
     align-items: start;
     justify-content: space-around;
 }
@@ -158,11 +158,11 @@ main{
 }
 
 .project-para p{
-    margin-bottom: 18px;
+    margin-bottom: 1.12rem;
 }
 
 .project-para img{
-    border: solid rgb(220, 167, 60) 4.5px;
+    border: solid rgb(220, 167, 60) 0.28rem;
     border-radius: 0.5%;
     width: 100%;
 }
@@ -172,9 +172,14 @@ main{
 }
 
 .tag{
-    width: 60px;
-    height: 24px;
+    width: 3.75rem;
+    height: 1.5rem;
     border-radius: 8%;
+    /*
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 8px;
+    */
     
     /* Styling */
     border-radius: 0.5%;
@@ -187,7 +192,7 @@ main{
     justify-content: center;
     
     /* Reset default paragraph margins */
-    margin: 5px 0 10px 10px;
+    margin: 0.31rem 0 0.6rem 0.6rem;
     margin-bottom: 10rem;
 }
 
@@ -256,7 +261,7 @@ a svg{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 0.625rem;
     margin: 0.5rem 0 1rem 0;
     padding:0;
 }
@@ -300,10 +305,8 @@ html {
         margin: 0 2rem;
         padding: 1rem 5rem;
     }
-
     #projects-list{
-        margin-top: 2.5rem;
-        gap: 70px;
+        grid-template-columns: 1fr;
     }
 
     .project-para h3{
@@ -352,7 +355,7 @@ html {
 
     #projects-list{
         margin-top: 2.5rem;
-        gap: 70px;
+        gap: 4.37rem;
     }
 
     .project-para h3{
@@ -400,7 +403,7 @@ html {
 
     #projects-list{
         margin-top: 4rem;
-        gap: 70px;
+        gap: 4.37rem;
     }
 
     .project-para h3{
@@ -452,7 +455,7 @@ html {
 
     #projects-list{
         margin-top: 4rem;
-        gap: 70px;
+        gap: 4.37rem;
     }
 
     .project-para h3{

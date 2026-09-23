@@ -146,6 +146,7 @@ main{
 
 #about img{
     width: 130rem;
+    max-width: 100%;
     min-width: 25rem;
 }
 

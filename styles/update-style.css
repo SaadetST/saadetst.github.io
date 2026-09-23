@@ -154,7 +154,7 @@ main{
 }
 
 .project-para{
-    padding: 1rem 0;
+    padding: 0 0 2rem 0;
 }
 
 .project-para p{
@@ -287,7 +287,7 @@ html {
 @media (max-width: 639px) {
     #about{
         flex-direction: column-reverse;
-        margin: 7rem 5rem 10rem 5rem;
+        margin: 3rem 5rem 3rem 5rem;
     }
 
     #about-para{

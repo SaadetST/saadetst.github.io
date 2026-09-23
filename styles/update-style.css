@@ -321,6 +321,7 @@ a:visited {
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 20rem;
+    font-size: 16px;
 }
 
 .desktop-heading{
